@@ -1,0 +1,17 @@
+<zkcf>
+  <BaseInfo>
+    <Directory value="D:\zk2016" />
+  </BaseInfo>
+  <StudentPool>
+    <StudentInfo Name="铜陵市2016届" Source="tls16" Id="163070100000" IdLength="5500" Zw="0701000000" ZwLength="175" />
+    <StudentInfo Name="铜陵县2016届" Source="tlx16" Id="163072100000" IdLength="2500" Zw="0721000000" ZwLength="75" />
+    <StudentInfo Name="铜陵市2017届" Source="tls17" Id="173070100000" IdLength="5500" Zw="0" ZwLength="0" />
+    <StudentInfo Name="铜陵县2017届" Source="tlx17" Id="173072100000" IdLength="2500" Zw="0" ZwLength="0" />
+  </StudentPool>
+  <TestPool>
+    <TestInfo Name="体育" Source="sports" Url="http://site.tledu.cn/sports/index" Pattern="id={0}" NeedZw="0" />
+    <TestInfo Name="实验" Source="nature" Url="http://site.tledu.cn/nature/index" Pattern="id={0}" NeedZw="0" />
+    <TestInfo Name="考试" Source="scores" Url="http://site.tledu.cn/tlx/rest/query" Pattern="id={0}&amp;zw=0{1}" NeedZw="1" />
+    <TestInfo Name="录取" Source="enroll" Url="http://site.tledu.cn/exam/rest/query" Pattern="id={0}&amp;zw=0{1}" NeedZw="1" />
+  </TestPool>
+</zkcf>
